@@ -1,8 +1,5 @@
-from ast import If
-
-
 print("-------------------------------------------------------")
-print("ejercicio16 determinada la salida")
+print("ejercicio16 determina la salida")
 print("-------------------------------------------------------")
 
 # entradas
@@ -20,11 +17,11 @@ if A > B:
             print(A, C, B)
     else:
         print(C, A, B)
-        else:
+else:
         if B > C:
             if A > C:
                 print(B, A, C)
             else:
                 print(B, C, A)
-            else:
+        else:
             print(B, C, A)
